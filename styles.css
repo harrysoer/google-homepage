@@ -1,14 +1,76 @@
 .google{
-	width: 25%;
+	margin-top: 10%;
+	width: 23%;
 	height: auto;
 	display: block;
+	margin-bottom: 15px;
 }
 
 .search{
 	width: 40%;
 	margin-bottom: 2%;
+	border-radius: 2px;
+	border: 1px solid  #cdcccc;
+	padding: 10px 0px 10px 10px;
+	box-shadow: 0px 1px 1px 0px  #cdcccc;
+}
+
+.search:hover{
+	box-shadow: 0px 3px 3px 0px #cdcccc;
+	-moz-box-shadow: 0px 3px 3px 0px #cdcccc;
 }
 
 .wrap{
-	margin-top: 10%;
+	
+}
+
+.buttons{
+	object-position: center;
+	margin-left: 5px;
+	border: none;
+	background-color: #f1f0f0;
+	padding: 10px 10px;
+	color: #828181;
+	font-weight: bold;
+}
+
+.buttons:hover{
+	background-color: #f1f0f0;
+	border: 1px solid #cdcccc;
+	color: #3c3c3c;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	font-size: 12px;
+}
+
+li{
+	float: right;
+	margin-left: 10px;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	color: #3c3c3c;
+}
+
+li a:link{
+	text-decoration: none;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
+
+.apps{
+	width: 20px;
+	height: 20px;
 }
